@@ -1,6 +1,6 @@
 # 🏠 Hardware for EthoPy
 
-Welcome to the **Hardware for EthoPy* repository! This collection includes all hardware information required to build the setups described in EthoPy. 
+Welcome to the **Hardware for EthoPy** repository! This collection includes all hardware information required to build the setups described in EthoPy. 
 
 ## 📦 What's Inside
 
