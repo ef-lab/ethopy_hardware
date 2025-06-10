@@ -1,14 +1,14 @@
 # 🖨️ 3D Designs for EthoPy Hardware
 
-This folder contains 3D-printable `.stl` files for components used in the EthoPy hardware setups.
+This folder contains 3D-printable `.stl` files for components used in the EthoPy Homecage setup.
 
 ## 📦 Included Models
-
+ 
 - `base.stl` – Main mounting base
 - `center_port.stl` – Center nose-poke port
 - `lick_port.stl` – Mount for lick detection module
 - `screen_stand.stl` – Stand for screen placement
-- `speaker_hold.stl` – Bracket for securing a speaker
+- `speaker_hold.stl` – Bracket for securing a speaker 
 
 All models are designed for ease of printing and assembly, with minimal support requirements.
 
