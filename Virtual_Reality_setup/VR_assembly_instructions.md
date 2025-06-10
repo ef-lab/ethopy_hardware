@@ -49,7 +49,7 @@
 - **Raspberry Pi Connection:** Select the pin of the RP we have programmed to trigger the pulse generator and a ground pin and connect the other end to the PWR and GND pins respectively placed at the top part of the board (position 3).
 - **Power Supply:** To turn on the board we need to twist 2 cables and insert them at position 1, one for the power and one for the ground of the power supply. It is advised to make a 6-way cable assembly both for the power and the ground, 5 of them going to each pulse generator, and one connecting the power supply.
 <!-- ![Pulse generator wiring diagram](media/VR_image3.png) -->
-<img src="media/VR_image3.png" alt="Wiring diagram" width="200" style="margin: 15px 0; display: block;">
+<img src="media/VR_image3.png" alt="Wiring diagram" width="100" style="margin: 15px 0; display: block;">
 
 2. Lick Detector: To connect the sensor for the lick detection we need (this I don't remember exactly, need to search for it).
 
