@@ -3,7 +3,12 @@
 ## Mounting onto the Metallic Plate
 
 1. Create Mounting Holes: Create 3 holes onto the metallic plate, creating a triangle with approximate sides of 18.8 x 18.6 x 18 cm.
-![Metallic plate with triangular hole pattern](media/VR_image1.png)
+<!-- ![Metallic plate with triangular hole pattern](media/VR_image1.png) -->
+
+<!-- Centered with spacing -->
+<div style="text-align: center; margin: 20px 0;">
+    <img src="media/VR_image1.png" alt="Metallic plate" width="400">
+</div>
 
 2. Mount Aluminum Rails: Screw with 2 or 3 M5 screws each aluminum rail (the 2 with dimensions 50x8x4cm) on the metallic plate, with an angle x° and distance x cm between the two closer edges and x cm between the farther edges.
 
@@ -16,7 +21,10 @@
 1. Create Mounting Holes: You will need to create 6 holes so 3 can be used to mount the 3D-printed ball bearing (**B**) holders, 2 for the laser (**L**) mice holders and 1 for the ball stop (**S**). The size of the holes should fit M4 (16) screws.
 
 2. Mount Ball Bearings: First mount the ball bearings with their base looking inwards. They should create a triangular shape with sides 19 x 17.5 x 20 cm. Then screw the small plexiglass pieces together with the ball bearings on the inclined base of each holder. Make sure that they are looking towards the center of the imaginary triangle and the most anterior bearing is 11 cm from the center, while the posterior have 5.5 cm distance from the center. These values are optimal for a ball with a diameter of 25 cm.
-![Ball bearing triangular arrangement on plexiglass](media/VR_image2.png)
+<!-- ![Ball bearing triangular arrangement on plexiglass](media/VR_image2.png) -->
+
+<!-- Left-aligned with margin -->
+<img src="media/VR_image2.png" alt="Ball bearings" width="500" style="margin: 15px 0; display: block;">
 
 3. Mount Laser Mice Holders: Then mount the laser mice holders looking towards the center of the triangle, with exactly 90° degrees from each other. It's important to mount them as close as possible to the ball bearings. Insert the board of each laser mouse depending on how they are programmed to calculate the virtual position of the subject and ensure they have 2 to 3 mm distance from the surface of the ball. 
 
@@ -46,7 +54,11 @@
 - **Power and Ground Connection:** Connect the power and ground of the valve to the board, placing the power at position 2a and the ground at position 2b.
 - **Raspberry Pi Connection:** Select the pin of the RP we have programmed to trigger the pulse generator and a ground pin and connect the other end to the PWR and GND pins respectively placed at the top part of the board (position 3).
 - **Power Supply:** To turn on the board we need to twist 2 cables and insert them at position 1, one for the power and one for the ground of the power supply. It is advised to make a 6-way cable assembly both for the power and the ground, 5 of them going to each pulse generator, and one connecting the power supply.
-![Pulse generator wiring diagram](media/VR_image3.png)
+<!-- ![Pulse generator wiring diagram](media/VR_image3.png) -->
+<!-- Centered with border and shadow -->
+<div style="text-align: center; margin: 25px 0;">
+    <img src="media/VR_image3.png" alt="Wiring diagram" width="350" style="border: 1px solid #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
 2. Lick Detector: To connect the sensor for the lick detection we need (this I don't remember exactly, need to search for it).
 
