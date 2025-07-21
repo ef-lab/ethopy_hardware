@@ -5,8 +5,8 @@ Welcome to the **Hardware for EthoPy** repository! This collection includes all 
 ## 📦 What's Inside
 
 This repo includes one folder for each behavioral system supported by EthoPy with the:
-- **Instructions** – step-by-step guides to build this setup  
-- **Parts list** – all hardware components required 
+- **Instructions** – step-by-step guides to build this setup and parts list 
+<!-- - **Parts list** – all hardware components required -->
 - **3d_designs** – ready-to-print `.stl` files 
 
 
@@ -14,16 +14,16 @@ This repo includes one folder for each behavioral system supported by EthoPy wit
 
 ```bash
 ├── README.md
-├── Homecage_setup/
-│   └── Instructions.md
-│   └── Parts_list.md
+├── Homecage/
+│   └── README.md
+│   └── Instructions.pdf
 │   └── 3d_designs      
 │       └── base.stl
-│       └── screen_stand.stl
+│       └── screen_holder.stl
 │       └── ...
-├── Openfield_setup/
+├── Openfield/
 │   └── ...
-├── Virtual_Reality_setup/
+├── Air-track/
 │   └── ...
 ```
 
