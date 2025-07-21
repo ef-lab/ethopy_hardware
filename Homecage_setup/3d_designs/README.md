@@ -6,9 +6,9 @@ This folder contains 3D-printable `.stl` files for components used in the EthoPy
  
 - `base.stl` – Main mounting base
 - `center_port.stl` – Center nose-poke port
-- `lick_port.stl` – Mount for lick detection module
-- `screen_stand.stl` – Stand for screen placement
-- `speaker_hold.stl` – Bracket for securing a speaker 
+- `center_port_with_speakers.stl` – Center nose-poke port for the auditory tasks
+- `screen_holder.stl` – Stand for screen placement
+- `pin.stl` – For mounting the center port holder 
 
 All models are designed for ease of printing and assembly, with minimal support requirements.
 
