@@ -66,7 +66,7 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
   <figcaption><i>Figure 1: The RP behavioral setup, mounted on the aluminum rails of the air-table using the screen holders.</i></figcaption>
 </figure>
 
-
+\
 **Step 3**: Assembling of a behavior port ([see Other Hardware, part #3](#hardware3)). Mounting of the infrared emitter ([see Electronics, part #3](#electro3)) and phototransistor ([see Electronics, part #4](#electro4)) to the port was performed following the instructions provided here. Each platform included three behavior ports.
 
 > :memo: **Note:**  For our experiments, we did not include LED light in the behavior ports.
@@ -101,10 +101,10 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 **Step 10**: Adjust the reward tubes ([see Other Hardware, part #5](#hardware5), [part #6](#hardware6)) to the behavioral port and connect the valves. Bridge the valves and connect to the water supply ([Fig. 3](#fig3)).
 
 <figure id="fig3">
-  <img src="figure/Fig3.png" width="30%" />
+  <img src="figures/Fig3.png" width="30%" />
   <figcaption><i>Figure 3: Solenoid valve with the positions of the tubes</i></figcaption>
 </figure>
 
-
+\
 **Step 11**: If sound/light insulation is needed, the Air-track behavioral system can be enclosed in the Rat-Rig V-Hive Enclosure Base Model ([see Other Hardware, part #7](#hardware7)). Assembly instructions can be found here. For further sound and light insulation, related insulation material ([see Other Hardware, part #8](#
 
