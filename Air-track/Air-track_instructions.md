@@ -63,8 +63,9 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 <figure id="fig1">
   <img src="figures/Fig1a.png" width="66.4%" />
   <img src="figures/Fig1b.png" width="30%" />
-  <figcaption><b>Figure 1</b>: <i>The RP behavioral setup, mounted on the aluminum rails of the air-table using the screen holders.</i></figcaption>
+  <figcaption><i>Figure 1: The RP behavioral setup, mounted on the aluminum rails of the air-table using the screen holders.</i></figcaption>
 </figure>
+
 
 **Step 3**: Assembling of a behavior port ([see Other Hardware, part #3](#hardware3)). Mounting of the infrared emitter ([see Electronics, part #3](#electro3)) and phototransistor ([see Electronics, part #4](#electro4)) to the port was performed following the instructions provided here. Each platform included three behavior ports.
 
@@ -82,7 +83,7 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 
 <figure id="fig2">
   <img src="figures/Fig2.png" width="30%" />
-  <figcaption><b>Figure 2</b>: <i>Ethernet cable wire number ids.</i></figcaption>
+  <figcaption><i>Figure 2: Ethernet cable wire number ids.</i></figcaption>
 </figure>
 
 > :memo: **Note:** You will use the wires 1 (signal of the sensor), 4 (power of the emitter), 5 (ground).
@@ -101,8 +102,9 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 
 <figure id="fig3">
   <img src="figure/Fig3.png" width="30%" />
-  <figcaption><b>Figure 3</b>: <i>Solenoid valve with the positions of the tubes</i></figcaption>
+  <figcaption><i>Figure 3: Solenoid valve with the positions of the tubes</i></figcaption>
 </figure>
+
 
 **Step 11**: If sound/light insulation is needed, the Air-track behavioral system can be enclosed in the Rat-Rig V-Hive Enclosure Base Model ([see Other Hardware, part #7](#hardware7)). Assembly instructions can be found here. For further sound and light insulation, related insulation material ([see Other Hardware, part #8](#
 
