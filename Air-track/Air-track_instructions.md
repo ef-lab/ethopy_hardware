@@ -61,28 +61,29 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 **Step 2**: Mount the Raspberry Pi Behavioral Setup on the screen holders ([see 3D printed parts, part #1](#printed1)) in front of the air-table ([Fig. 1](#fig1)).
 
 <figure id="fig1">
-  <img src="Fig1a.png" width="66.4%" />
-  <img src="Fig1b.png" width="30%" />
-  <figcaption><b>Figure 1</b>: <i>The RP behavioral setup, mounted on the aluminum rails of the air-table using the screen holders.</i></figcaption>
+  <img src="figures/Fig1a.png" width="66.4%" />
+  <img src="figures/Fig1b.png" width="30%" />
+  <figcaption><i>Figure 1: The RP behavioral setup, mounted on the aluminum rails of the air-table using the screen holders.</i></figcaption>
 </figure>
 
+\
 **Step 3**: Assembling of a behavior port ([see Other Hardware, part #3](#hardware3)). Mounting of the infrared emitter ([see Electronics, part #3](#electro3)) and phototransistor ([see Electronics, part #4](#electro4)) to the port was performed following the instructions provided here. Each platform included three behavior ports.
 
-<ins>Note</ins>: For our experiments, we did not include LED light in the behavior ports.
+> :memo: **Note:**  For our experiments, we did not include LED light in the behavior ports.
 
 **Step 4**: Set up three Bpod port interface boards ([see Electronics, part #1](#electro1)) as per instructions provided here. Place the Bpod port Interface Boards close to the Air-track and the Raspberry Pi Behavioral Setup for convenience.
 
 **Step  5**: For each port, connect the infrared emitter and phototransistor with the Bpod port interface board.
 
-<ins>Note</ins>: To reduce the tension caused to the platform from these connections, prefer using wires with a cross-section of 0.05 mm² and an outer diameter of 0.8 mm ([see Electronics, part #6](#electro6)).
+> :memo: **Note:**  To reduce the tension caused to the platform from these connections, prefer using wires with a cross-section of 0.05 mm² and an outer diameter of 0.8 mm ([see Electronics, part #6](#electro6)).
 
 **Step 6**: Connecting the Bpod port interface boards to the Raspberry Pi Behavioral Setup. As the connections with the Bpod port interface board are through an Ethernet cable, you will need 3 Ethernet cables, one per port ([see Electronics, part #5](#electro5)).
 
 **Step 7**: Remove the insulation from the edge of the Ethernet wires. Place 13 female terminals ([see Other Hardware, part #4](#hardware4)) at the end of each wire and cover the exposed terminal with insulation (e.g., heat shrink tube, [see Other Hardware, part #9](#hardware9)). In the following steps, the identification of the Ethernet cable wires is shown in ([Fig. 2](#fig2)).
 
 <figure id="fig2">
-  <img src="Fig2.png" width="30%" />
-  <figcaption><b>Figure 2</b>: <i>Ethernet cable wire number ids.</i></figcaption>
+  <img src="figures/Fig2.png" width="30%" />
+  <figcaption><i>Figure 2: Ethernet cable wire number ids.</i></figcaption>
 </figure>
 
 > :memo: **Note:** You will use the wires 1 (signal of the sensor), 4 (power of the emitter), 5 (ground).
@@ -93,16 +94,17 @@ You will find the blueprints for the items you should 3D print [here](3d_designs
 - Connect wire 4 (power) of each Ethernet cable to a 5V power pin.
 - Connect wire 5 (ground) of each Ethernet cable to a ground pin.
 
-<ins>Note</ins>: Power cables and grounds should be short-circuited together to connect to one pin of the Raspberry Pi.
+> :memo: **Note:**  Power cables and grounds should be short-circuited together to connect to one pin of the Raspberry Pi.
 
 **Step 9**: Driving of the valves for ports 1 and 2 using the EthoPy Controller Board ([see Electronics, part #2](#electro2)).
 
 **Step 10**: Adjust the reward tubes ([see Other Hardware, part #5](#hardware5), [part #6](#hardware6)) to the behavioral port and connect the valves. Bridge the valves and connect to the water supply ([Fig. 3](#fig3)).
 
 <figure id="fig3">
-  <img src="Fig3.png" width="30%" />
-  <figcaption><b>Figure 3</b>: <i>Solenoid valve with the positions of the tubes</i></figcaption>
+  <img src="figures/Fig3.png" width="30%" />
+  <figcaption><i>Figure 3: Solenoid valve with the positions of the tubes</i></figcaption>
 </figure>
 
+\
 **Step 11**: If sound/light insulation is needed, the Air-track behavioral system can be enclosed in the Rat-Rig V-Hive Enclosure Base Model ([see Other Hardware, part #7](#hardware7)). Assembly instructions can be found here. For further sound and light insulation, related insulation material ([see Other Hardware, part #8](#
 
