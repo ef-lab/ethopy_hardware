@@ -4,7 +4,7 @@ This folder contains 3D-printable `.stl` files for components used in the adapte
 
 ## 📦 Included Models
  
-- `screenholder_v4.stl` – Stand for screen placement
+- `screen_holder.stl` – Stand for screen placement
 
 
 All models are designed for ease of printing and assembly, with minimal support requirements.
