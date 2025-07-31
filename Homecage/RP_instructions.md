@@ -1,6 +1,13 @@
 # Raspberry Pi Behavioral Setup
 A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](https://www.raspberrypi.com/), a small, affordable, single-board computer. It includes ports for HDMI, USB, Ethernet, audio, camera interface (CSI), display interface (DSI), and General Purpose Input/Output (GPIO) pins. It primarily runs on a Linux-based OS called Raspberry Pi OS, and also supports other operating systems. Below, we analytically describe the steps to implement a Raspberry Pi-based behavioral setup.
 
+<div align="center">
+  <figure id="fig1">
+    <img src="RP_Figures/Fig1b.png" width="%" />
+  </figure>
+</div>
+
+
 ## 📦 Hardware Parts List
 
 ### 🔌 Electronics
@@ -8,30 +15,30 @@ A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](http
 | # | Item                                          | Qty     | Source              | Identifier            | Notes                                                                                     |
 |:-:|:-:                                            |:-:      |:-:                  |:-:                    |:-:                                                                                        |
 <a id="electro1"></a>
-| 1 | Raspberry Pi 4 Model B/4GB                    | 1       | SC0192-3            |  Raspberry Pi         |                                                                                           |
+| 1 | Raspberry Pi 4 Model B/4GB                    | 1       | Raspberry Pi             |SC0192-3|                                                                                           |
 <a id="electro2"></a>
-| 2 | Official Raspberry Pi 7 Touch Screen Display  | 1       | 2473872             |  Raspberry Pi         |                                                                                           |
+| 2 | Official Raspberry Pi 7 Touch Screen Display  | 1       | Raspberry Pi              |  2473872         |                                                                                           |
 <a id="electro3"></a>
-| 3 | Premium High Speed microSD Card               | 1       | INMSDH32G-100/70V30 | Integral              |                                                                                           |
+| 3 | Premium High Speed microSD Card               | 1       |  Integral  | INMSDH32G-100/70V30              |                                                                                           |
 <a id="electro4"></a>
 | 4 | EthoPy Controller Board                       | 1       | [Custom](ethopy_hardware/Homecage/EthoPy_Controller_Board.md)              |                       |                                                                                           |
 <a id="electro5"></a>
 | 5 | Lick Ports                                    | 2 or 3  | [Custom](ethopy_hardware/Homecage/Lick_ports_assemply.md)              |                       | 2 to detect licks and deliver water, 1 can be used as a proximity indicator (center port) |
 <a id="electro6"></a>
-| 6 | Beam Photoelectric Sensor                     | 1       | HR0172              |  HAITRONIC         |Can be used as a proximity indicator (center port)                                         |
+| 6 | Beam Photoelectric Sensor                     | 1       | HAITRONIC               | HR0172          |Can be used as a proximity indicator (center port)                                         |
 <a id="electro7"></a>
-| 7 | Solenoid valves                               | 2       | LHDA0533415H        | LEE SLR               |                                                                                           | <!--Verify Mfr. source-->
+| 7 | Solenoid valves                               | 2       | LEE SLR         | LHDA0533415H               |                                                                                           | <!--Verify Mfr. source-->
 <a id="electro8"></a>
-| 8 | Ultrasound Speakers 40kHz                     | 2       | UT-1640K-TT-2-R     | PUI Audio    |For auditory experiments. See: [Speakers_assemply](ethopy_hardware/Homecage/Speakers_assemply.md)                                                                    |
+| 8 | Ultrasound Speakers 40kHz                     | 2       | PUI Audio      | UT-1640K-TT-2-R    |For auditory experiments. See: [Speakers_assemply](ethopy_hardware/Homecage/Speakers_assemply.md)                                                                    |
 
 ### 🔧 Other Hardware
 
 | # | Item                                | Qty | Source      | Identifier    | Notes       |
 |:-:|:-:                                  |:-:  |:-:          |:-:            |:-:          |
 <a id="other1"></a>
-| 1 | M3 screws                           | 6   | M3X12/D7985 | Grobotronics  |             | <!--Verify Mfr. source & Identifier-->
+| 1 | M3 screws                           | 6   | Grobotronics  | M3X12/D7985  |             | <!--Verify Mfr. source & Identifier-->
 <a id="other2"></a>
-| 2 | Raspberry Pi 4 Heatsink (40x30x5mm) | 1   | 49-00012076 | Grobotronics  |             | <!--Verify Mfr. source & Identifier-->
+| 2 | Raspberry Pi 4 Heatsink (40x30x5mm) | 1   | Grobotronics  | 49-00012076  |             | <!--Verify Mfr. source & Identifier-->
 
 ### 🧩 3D printed parts
 You will find the blueprints for the items you should 3D print [here](ethopy_hardware/Homecage/3d_designs).

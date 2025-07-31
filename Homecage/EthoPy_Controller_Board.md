@@ -1,6 +1,11 @@
 # EthoPy Controller Board and Arduino
 
 Arduino is a microcontroller that converts the analog signal from the lick and proximity ports to digital, and a Controller Board ensures the communication between the Arduino and Raspberry Pi.
+<div align="center">
+<figure id="fig13">
+  <img src="Controller_Figures/Fig13.png" width="%" />
+</figure>
+</div>
 
 ## 📦 Parts List
 
@@ -9,37 +14,37 @@ Arduino is a microcontroller that converts the analog signal from the lick and p
 | # | Item                                      | Qty  | Source                     | Identifier                    | Notes | 
 |:-:|:-:                                        |:-:   |:-:                         |:-:                            |:-:    |
 <a id="electro1"></a>
-| 1 | 40-pin Stackable Female Extra Tall Header | 1    | —                          | Grobotronics                  |       | <!--Add Mfr. source & Identifier-->
+| 1 | 40-pin Stackable Female Extra Tall Header | 1    | Grobotronics             |                          |       | <!--Add Mfr. source & Identifier-->
 <a id="electro2"></a>
-| 2 | Arduino Nano Every                        | 1    | —                          | Arduino Store                 |       |
+| 2 | Arduino Nano Every                        | 1    | Arduino Store            |                  |       |
 <a id="electro3"></a>
-| 3 | 1x2 Female Pin Header Right Angle         | 2    | 05-00011907                | GROBOTRONICS                  |       | <!--Add Mfr. source & Identifier-->
+| 3 | 1x2 Female Pin Header Right Angle         | 2    | Grobotronics                |05-00011907         |       | <!--Add Mfr. source & Identifier-->
 <a id="electro4"></a>
-| 3 | 1x3 Female Pin Header Right Angle         | 3    | 05-00011907                |                               |       | <!--Add Mfr. source & Identifier-->
+| 3 | 1x3 Female Pin Header Right Angle         | 3    |                 | 05-00011907               |       | <!--Add Mfr. source & Identifier-->
 <a id="electro5"></a>
-| 4 | 1x2 Male Pin Header                       | 5    | 19-00011916                |                               |       | <!--Add Mfr. source & Identifier-->
+| 4 | 1x2 Male Pin Header                       | 5    |                | 19-00011916                   |       | <!--Add Mfr. source & Identifier-->
 <a id="electro6"></a>
-| 5 | 1x15 Female Pin Header                    | 2    | 19-00011915                |                               |       | <!--Add Mfr. source & Identifier-->
+| 5 | 1x15 Female Pin Header                    | 2    |                 | 19-00011915                 |       | <!--Add Mfr. source & Identifier-->
 <a id="electro7"></a>
 | 6 | 1x15 Male Pin Header                      | 2    | Included in Arduino kit    | —                             |       |
 <a id="electro8"></a>
-| 7 | Metal Film Resistor 100 Ω, 1/4W, 1%       | 4    | MFR25SFTF52-100R           | YAGEO                         |       |
+| 7 | Metal Film Resistor 100 Ω, 1/4W, 1%       | 4    | YAGEO            | MFR25SFTF52-100R            |       |
 <a id="electro9"></a>
-| 8 | Metal Film Resistor 2.2 kΩ, 1/2W, 1%      | 3    | MFR25SFTF52-2K2            | YAGEO                         |       |
+| 8 | Metal Film Resistor 2.2 kΩ, 1/2W, 1%      | 3    | YAGEO MFR25SFTF52-2K2            | MFR25SFTF52-2K2           |       |
 <a id="electro10"></a>
-| 9 | Metal Film Resistor 1 kΩ, 1/2W, 1%        | 3    | CFR-25JB-1K0               | YAGEO                         |       |
+| 9 | Metal Film Resistor 1 kΩ, 1/2W, 1%        | 3    | YAGEO                | CFR-25JB-1K0           |       |
 <a id="electro11"></a>
-|10 | Metal Film Resistor 10 kΩ, 1/4W, 1%       | 3    | CFR25SJT-52-10K            | YAGEO                         |       |
+|10 | Metal Film Resistor 10 kΩ, 1/4W, 1%       | 3    | YAGEO             | CFR25SJT-52-10K            |       |
 <a id="electro12"></a>
-|11 | BC547B Transistor                         | 2    | BC547B                     | onsemi / Fairchild            |       |
+|11 | BC547B Transistor                         | 2    | onsemi / Fairchild                      | BC547B     |       |
 <a id="electro13"></a>
-|12 | Aluminium Electrolytic Capacitor          | 1    | 35ZLR220MEFC8X11.5         | Rubycon                       |       |
+|12 | Aluminium Electrolytic Capacitor          | 1    | Rubycon          | 35ZLR220MEFC8X11.5          |       |
 <a id="electro14"></a>
-|13 | Tactile Push Button Switch (6×6×6)        | 2    | TS02-66-70-BK-160-SCR-D    | Same Sky                      |       |
+|13 | Tactile Push Button Switch (6×6×6)        | 2    | Same Sky     | TS02-66-70-BK-160-SCR-D     |       |
 <a id="electro15"></a>
 |13 | Tactile Push Button Switch (6×6×9)        | 1    | —                          |                               | —     | <!--Add Mfr. source & Identifier-->
 <a id="electro16"></a>
-|14 | Diode Rectifier                           | 2    | 1N4005-E3/73               | Vishay General Semiconductor  |       |
+|14 | Diode Rectifier                           | 2    | Vishay General Semiconductor           | 1N4005-E3/73  |       |
 <a id="electro17"></a>
 |15 | Printed Circuit Board (PCB)               | 1    | Custom                     | —                             |       |
 

@@ -1,9 +1,11 @@
 # Speakers' Setup
 Speakers are used to provide auditory cues during behavioral experiments. They can be embedded within experimental setups to deliver sound stimuli. Below are the step-by-step instructions for setting up the speakers.
 
+<div align="center">
 <figure id="fig1">
   <img src="Speakers_Figures/Fig.png" width="%" />
 </figure>
+</div>
 
 ## 📦 Hardware Parts List
 
@@ -11,13 +13,13 @@ Speakers are used to provide auditory cues during behavioral experiments. They c
 | # | Item                                      | Qty  | Source                | Identifier       | Notes                               |
 |:-:|:-:                                        |:-:   |:-:                    |:-:               |:-:                                  |
 <a id="electro1"></a>
-| 1 | Ultrasound Speakers 40kHz                 | 2    | UT-1640K-TT-2-R             |    PUI Audio       | Transmitter | <!--Add Mfr. source & Identifier-->
+| 1 | Ultrasound Speakers 40kHz                 | 2    | PUI Audio              |    UT-1640K-TT-2-R       | Transmitter | <!--Add Mfr. source & Identifier-->
 <a id="electro2"></a>
 | 2 | Speaker (Receiver)                        | 1    | —                     |                  |                                     | <!--Add Mfr. source & Identifier-->
 <a id="electro3"></a>
-| 3 | Jumper wire (female-to-female)            | 2    | 05-00011907           | GROBOTRONICS     |                                     | <!--Add Mfr. source & Identifier-->
+| 3 | Jumper wire (female-to-female)            | 2    | GROBOTRONICS            | 05-00011907     |                                     | <!--Add Mfr. source & Identifier-->
 <a id="electro4"></a>
-| 3 | Heat shrink set                           | 6    | 05-00017098           |Cyg, Grobotronics | Two 12cm  and four 20cm Jumper wire | <!--Verify Mfr. source & Identifier-->
+| 3 | Heat shrink set                           | 6    | Cyg, Grobotronics            | 05-00017098 | Two 12cm  and four 20cm Jumper wire | <!--Verify Mfr. source & Identifier-->
 <a id="electro5"></a>
 
 
