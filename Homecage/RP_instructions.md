@@ -21,7 +21,7 @@ A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](http
 <a id="electro3"></a>
 | 3 | Premium High Speed microSD Card               | 1       |  Integral  | INMSDH32G-100/70V30              |                                                                                           |
 <a id="electro4"></a>
-| 4 | EthoPy Controller Board                       | 1       | [Custom](ethopy_hardware/Homecage/EthoPy_Controller_Board.md)              |                       |                                                                                           |
+| 4 | EthoPy Controller Board                       | 1       | [Custom](EthoPy_Controller/EthoPy_Controller_Board.md)              |                       |                                                                                           |
 <a id="electro5"></a>
 | 5 | Lick Ports                                    | 2 or 3  | [Custom](ethopy_hardware/Homecage/Lick_ports_assemply.md)              |                       | 2 to detect licks and deliver water, 1 can be used as a proximity indicator (center port) |
 <a id="electro6"></a>
