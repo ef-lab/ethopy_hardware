@@ -1,6 +1,6 @@
-# Ball Behavioral Setup
+# Spherical Treadmill Behavioral Setup
 
-The ball behavioral setup is used for head-fixed mice performing sensory navigation tasks (e.g., olfactory, visual, multimodal). Below, we describe the protocol to construct an odor-based virtual reality setup. 
+The Spherical Treadmill (ball) behavioral setup is used for head-fixed mice performing sensory navigation tasks (e.g., olfactory, visual, multimodal). Below, we describe the protocol to construct an odor-based virtual reality setup. 
 
 ## 📦 Hardware Parts List
 
@@ -37,11 +37,11 @@ You will find the blueprints for the items you should 3D print [here](ethopy_har
 | # | Item                  | Qty | Filename                                                                        | Notes             |
 |:-:|:-:                    |:-:  |:-:                                                                              |:-:                |
 <a id="printer1"></a>
-| 1 | mouse post            | 2   | [mouse_post.stl](ethopy_hardware/Ball/3d_design/mouse_post.stl)                 |                   |
+| 1 | mouse post            | 2   | [mouse_post.stl](ethopy_hardware/Spherical_Treadmill/3d_design/mouse_post.stl)                 |                   |
 <a id="printer2"></a>
-| 2 | ball bearing holder   | 3   | [ball_bearing_holder.stl](ethopy_hardware/Ball/3d_design/ball-bearing-post.stl) |                   |
+| 2 | ball bearing holder   | 3   | [ball_bearing_holder.stl](ethopy_hardware/Spherical_Treadmill/3d_design/ball-bearing-post.stl) |                   |
 <a id="printer3"></a>
-| 3 | 5-way tube connector  | 1   | [tube_connector.stl](ethopy_hardware/Ball/3d_design/tube_connector.stl)         |                   |
+| 3 | 5-way tube connector  | 1   | [tube_connector.stl](ethopy_hardware/Spherical_Treadmill/3d_design/tube_connector.stl)         |                   |
 
 ## 🛠️ Step-by-step assemply instructions
 
@@ -67,11 +67,11 @@ Following instructions apply for any virtual reality system that uses a styrofoa
 </figure>
 </div>
 
-> :memo: **Note:** Details about the how EthoPy computes the distances covered by the animal are in [`vr_ball_readme.md`](https://github.com/ef-lab/ethopy_plugins/blob/main/ball/behaviors/vr_ball_readme.md)
+> :memo: **Note:** Details about the how EthoPy computes the distances covered by the animal are in [`vr_ball_readme.md`](https://github.com/ef-lab/ethopy_plugins/blob/main/spherical_treadmill/behaviors/vr_ball_readme.md)
 
 **Step 4**. The odor and water delivery system requires constant air supply and 5 solenoid valves. The air supply is connected to a 5-way manifold ([3D-printed parts, part #3](#printer3)) with the 4 valves that open and close when a pulse is sent from the RP through the MOSFET ([Electronics parts list, item #2](#electro2)). Upon pulse delivery the valves open for the specified duration and the air travels through the odor bottle to the mouthpiece. Similarly for the water supply, water is delivered to the lick port inside the mouthpiece upon correct response. 
 
-> :memo: **Note:** Odors are released depending on the animal’s virtual location and are calculated in [`EthoPy Ball`](https://github.com/ef-lab/ethopy_plugins/blob/main/ball/stimuli/vr_odors_readme.md) 
+> :memo: **Note:** Odors are released depending on the animal’s virtual location and are calculated in [`EthoPy Ball`](https://github.com/ef-lab/ethopy_plugins/blob/main/spherical_treadmill/stimuli/vr_odors_readme.md) 
 
 <div align="center">
 <figure id="fig3">
