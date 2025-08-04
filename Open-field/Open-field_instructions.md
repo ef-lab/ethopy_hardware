@@ -11,7 +11,7 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 <a id="eletro1"></a>
 | 1 | Arduino Nano Every Board           | 1   | Arduino Store                            | ABX00028                                                     |                                                  | 
 <a id="eletro2"></a>
-| 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](ethopy_hardware/Homecage/EthoPy_Controller_Board.md)|  |
+| 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](https://github.com/ef-lab/ethopy_hardware/blob/main/EthoPy_Controller/EthoPy_Controller_Board.md)|  |
 <a id="eletro3"></a>
 | 3 | 13.3" Capacitive Touch Screen LCD  | 1   | Waveshare                                | HDMI LCD (H)                                                 | Presentation of stimuli, with Toughened Glass Cover, 1920×1080 |
 <a id="eletro4"></a>
@@ -44,17 +44,19 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 <a id="other11"></a>
 | 11| V-Slot Gantry Set 2020 with Three Wheels  | 2   | Grobotronics | 14-00020155                                               |                                                      |
 <a id="other12"></a>
-| 12| Lickport                                  | 1   | _            | [Custom](ethopy_hardware/Homecage/Lick_ports_assemply.md) | Delivers water                                       |
+| 12| Lickport                                  | 1   | _            | [Custom](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Lick_ports_assemply.md) | Delivers water                                       |
 <a id="other13"></a>
 | 13| LHD Series 3-Way Control Solenoid Valve   | 1   | Lee SLR      | LHDA0533415H                                              |                                                      |
 
 
 ### 🧩 3D Printed Parts
 
+You will find the blueprints for the items you should 3D print [here](https://github.com/ef-lab/ethopy_hardware/tree/main/Open-field/3d_designs).
+
 | # | Item            | Qty | Filename                                                                                              | Notes |
 |:-:|:-:              |:-:  |:-:                                                                                                    |:-:    |
-| 1 | Lower Corners   | 4   | [open-field_bottom_corner.stl](ethopy_hardware/Open-field/3d_designs/open-field_bottom_corner.stl)    |       |
-| 2 | Upper Corners   | 4   | [open-field_top_corner.stl](ethopy_hardware/Open-field/3d_designs/open-field_top_corner.stl)          |       |
+| 1 | Lower Corners   | 4   | [open-field_bottom_corner.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Open-field/3d_designs/open-field_bottom_corner.stl)    |       |
+| 2 | Upper Corners   | 4   | [open-field_top_corner.stl](https://github.com/ef-lab/ethopy_hardware/blob/main/Open-field/3d_designs/open-field_top_corner.stl)          |       |
 
 ---
 
@@ -109,11 +111,11 @@ The interior of the enclosure consists of a plexiglass box (arena), where the mo
 
 ### 🧰 Arduino Board
 
-**Step 6**. Follow instructions for [EthoPy Controller Board](ethopy_hardware/Homecage/Ethopy_Controller_Board.md)
+**Step 6**. Follow instructions for [EthoPy Controller Board](https://github.com/ef-lab/ethopy_hardware/blob/main/EthoPy_Controller/EthoPy_Controller_Board.md)
 
 ### 💧 Lickport
 
-**Step 7**. Follow instructions [here](ethopy_hardware/Homecage/Lick_ports_assemply.md) to make the lickport ([Other Hardware list, item #12](#other12)).
+**Step 7**. Follow instructions [here](https://github.com/ef-lab/ethopy_hardware/blob/main/Homecage/Lick_ports_assemply.md) to make the lickport ([Other Hardware list, item #12](#other12)).
 
 **Step 8**. Connect the lickport to the arduino board and a solenoid valve ([Other Hardware list, item #13](#other13)) in a pressurized tubing network (STAR methods, liquid delivery).
 
