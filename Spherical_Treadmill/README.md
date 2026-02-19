@@ -10,25 +10,25 @@ The Spherical Treadmill (ball) behavioral setup is used for head-fixed mice perf
 
 ### Electronics
 
-| # | Item                      | Qty  | Source          | Identifier   |  Notes                                 |
-|:-:|:-:                        |:-:   |:-:              |:-:           |:-:                                     |
+| # | Item        | Qty  | Source      | Identifier  | Ind. Price |  Notes                                 |
+|:-:|:-:          |:-:   |:-:          |:-:          |:-:         |:-:                                     |
 <a id="electro1"></a>
-| 1 | solenoid valves           | 5    | fspumb.cn       | 0526T        | 4 for odorants, 1 for water delivery   |
+| 1 | solenoid valves        | 5    | fspumb.cn       | 0526T    |   9€  | 4 for odorants, 1 for water delivery   |
 <a id="electro2"></a>
-| 2 |MOSFET board               | 5    | OEM             | FR120N       | To control the solenoid valves         |
+| 2 |MOSFET board               | 5    | OEM             | FR120N   |  0.50€   | To control the solenoid valves         |
 <a id="electro3"></a>
-| 3 | Capacitive sensor board   | 1    | Sparkfun        | AT42QT1011   | for lick detection                     |
+| 3 | Capacitive sensor board   | 1    | Sparkfun        | AT42QT1011  |  7.35€ | for lick detection                     |
 <a id="electro4"></a>
-| 4 | laser mouse               | 2    | DELL            | MS3220       | ball sensors                           |
+| 4 | laser mouse               | 2    | DELL            | MS3220    |   27.87€  | ball sensors                           |
 
 ### Other Hardware
 
-| # | Item                      | Qty  | Source          | Identifier   |  Notes                                 |
-|:-:|:-:                        |:-:   |:-:              |:-:           |:-:                                     |
+| # | Item                      | Qty  | Source          | Identifier  | Ind. Price |  Notes                                 |
+|:-:|:-:                        |:-:   |:-:              |:-:        |:-   |:-:                                     |
 <a id="other1"></a>
-| 1 | ball bearings             | 3    | DFRobot         | FIT0007      |                                        |
+| 1 | ball bearings             | 3    | DFRobot         | FIT0007   | 2.19€   |                                        |
 <a id="other2"></a>
-| 2 | plastic box               | 1    | Kradex          | Z74HJ        | 30 x 20 x 10cm                         |
+| 2 | plastic box               | 1    | Kradex          | Z74HJ      | 6€  | 30 x 20 x 10cm                         |
 
 ### 3D Printed Parts
 

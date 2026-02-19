@@ -6,47 +6,47 @@ In this protocol, the open-field behavioral setup is used to allow freely-moving
 
 ### Electronics
 
-| # | Item                               | Qty | Source                                   | Identifier                                                   | Notes                                            |
-|:-:|:-:                                 |:-:  |:-:                                       |:-:                                                           |:-:                                               |
+| # | Item                               | Qty | Source                 | Identifier       | Ind. Price  | Notes            |
+|:-:|:-:                                 |:-:  |:-:                     |:-:               |:-:          |:-:        |
 <a id="electro1"></a>
-| 1 | Arduino Nano Every Board           | 1   | Arduino Store                            | ABX00028                                                     |                                                  |
+| 1 | Arduino Nano Every Board           | 1   | Arduino Store          | ABX00028     |     14.5€    | |
 <a id="electro2"></a>
-| 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](../EthoPy_Controller/README.md)|  |
+| 2 | PCB Controller Board               | 1   | JLCPCB (JiaLiChuang (HongKong) Co., LTD) | [custom](../EthoPy_Controller/README.md)| 1.4€ | |
 <a id="electro3"></a>
-| 3 | 13.3" Capacitive Touch Screen LCD  | 1   | Waveshare                                | HDMI LCD (H)                                                 | Presentation of stimuli, with Toughened Glass Cover, 1920×1080 |
+| 3 | 13.3" Capacitive Touch Screen LCD  | 1   | Waveshare                                | HDMI LCD (H)     |  144€   | Presentation of stimuli, with Toughened Glass Cover, 1920×1080 |
 <a id="electro4"></a>
-| 4 | HDMI Cable (2m, 4K/60Hz)           | 1   | Ugreen                                   |     ED015                                                    |Connects the screen with the PC                    |
+| 4 | HDMI Cable (2m, 4K/60Hz)           | 1   | Ugreen                   |     ED015   | 11.90€ |Connects the screen with the PC                    |
 
 ### Other Hardware
 
-| # | Item                                      | Qty | Source       | Identifier                                                | Notes                                                |
-|:-:|:-:                                        |:-:  |:-:           |:-:                                                        |:-:                                                   |
+| # | Item       | Qty | Source       | Identifier  | Ind. Price    | Notes          |
+|:-:|:-:         |:-:  |:-:           |:-:          |:-:            |:-:              |
 <a id="other1"></a>
-| 1 | V-SLOT 2020 1500mm                        | 1   | Grobotronics | 27-99920208                                               | cut into 4 pieces of 31 cm length                    |
+| 1 | V-SLOT 2020 1500mm         | 1   | Grobotronics | 27-99920208      |  14.80€      | cut into 4 pieces of 31 cm length                    |
 <a id="other2"></a>
-| 2 | V-SLOT 2020 250mm                         | 4   | Grobotronics | 27-99920210                                               |                                                      |
+| 2 | V-SLOT 2020 250mm         | 4   | Grobotronics | 27-99920210      |   2.5€    |        |
 <a id="other3"></a>
-| 3 | V-SLOT 2020 500mm                         | 2   | Grobotronics | 27-99920209                                               |                                                      |
+| 3 | V-SLOT 2020 500mm    | 2   | Grobotronics | 27-99920209         |     4.9€     |                        |
 <a id="other4"></a>
-| 4 | Inside Hidden Corner Bracket 3-Way        | 4   | Grobotronics | 14-00015421                                               |                                                      |
+| 4 | Inside Hidden Corner Bracket 3-Way        | 4   | Grobotronics | 14-00015421           |        1.6€      |           |
 <a id="other5"></a>
-| 5 | RatRig Cast - 90 Degree Corner Bracket    | 4   | Grobotronics | 27-22280012                                               |                                                      |
+| 5 | RatRig Cast - 90 Degree Corner Bracket    | 4   | Grobotronics | 27-22280012            |    0.6€    |       |
 <a id="other6"></a>
-| 6 | Plexiglass Plates                         | 7   | Local vendor | —                                                         | 2 33x33cm plates, 1 30x30cm plate, 4 35x30cm plates  |
+| 6 | Plexiglass Plates     | 7   | Local vendor | —        |  2€ | 2 33x33cm plates, 1 30x30cm plate, 4 35x30cm plates  |
 <a id="other7"></a>
-| 7 | V-Hive Enclosure Base Model               | 1   | RatRig       | HW3303GK                                                  | Insulation of light and sound                        |
+| 7 | V-Hive Enclosure Base Model     | 1   | RatRig       | HW3303GK        |   118€     | Insulation of light and sound                        |
 <a id="other8"></a>
-| 8 | ISOLFON Foam Plate                        | —   | Muziker      | —                                                         | Sound insulator                                      |
+| 8 | ISOLFON Foam Plate      | —   | Muziker      | —      |    | Sound insulator                                      |
 <a id="other9"></a>
-| 9 | M4 Screws                                 | —   | M4X10        | —                                                         | 11x L10 & 16x L8                                     |
+| 9 | M4 Screws       | —   | M4X10        | —         | ~0,30€ | 11x L10 & 16x L8                                     |
 <a id="other10"></a>
-| 10| M4 T-nuts 20x20                           | 9   | —            | 14-00085144                                               |                                                      |
+| 10| M4 T-nuts 20x20          | 9   | —       | 14-00085144                |  0,20€  |       | 
 <a id="other11"></a>
-| 11| V-Slot Gantry Set 2020 with Three Wheels  | 2   | Grobotronics | 14-00020155                                               |                                                      |
+| 11| V-Slot Gantry Set 2020 with Three Wheels  | 2   | Grobotronics | 14-00020155           |    9.90€     |                    |
 <a id="other12"></a>
-| 12| Lickport                                  | 1   | —            | [Custom](../Homecage/Lick_ports_assembly.md) | Delivers water                                       |
+| 12| Lickport                | 1   | —            | [Custom](../Homecage/Lick_ports_assembly.md) |         |     Delivers water       |
 <a id="other13"></a>
-| 13| LHD Series 3-Way Control Solenoid Valve   | 1   | Lee SLR      | LHDA0533415H                                              |                                                      |
+| 13| LHD Series 3-Way Control Solenoid Valve   | 1   | Lee SLR      | LHDA0533415H           |    93€   |        |
 
 
 ### 3D Printed Parts
