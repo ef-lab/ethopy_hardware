@@ -24,7 +24,7 @@ A key component of multiple Ethopy behavioral systems is the [Raspberry Pi](http
 <a id="electro6"></a>
 | 6 | Beam Photoelectric Sensor      | 1    | HAITRONIC         | HR0172    |  2€ |Can be used as a proximity indicator (center port)                                         |
 <a id="electro7"></a>
-| 7 | Solenoid valves            | 2       | LEE SLR         | LHDA0533415H         |            | |
+| 7 | Solenoid valves            | 2       | LEE SLR         | LHDA0533415H         |     95€   | |
 <a id="electro8"></a>
 | 8 | Ultrasound Speakers 40kHz     | 2       | PUI Audio      | UT-1640K-TT-2-R| 3.20€    |For auditory experiments. See: [Speakers_assembly](Speakers_assembly.md)             |
 
